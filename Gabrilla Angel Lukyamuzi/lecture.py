@@ -20,4 +20,4 @@ s1.set_gpa(12)
 
 
 @property
-def gpa (self,value)
+def gpa (self,value):
