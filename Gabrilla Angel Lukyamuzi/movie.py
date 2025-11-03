@@ -55,12 +55,13 @@ system.add_movie(m2)
 system.add_movie(m3)
 
 # 2. Book several seats
-system.book_seat("Inception")
-system.book_seat("Inception")
+system.book_seat("Mr. Bean's Holiday")
+system.book_seat("Mr. Bean's Holiday")
 system.book_seat("Interstellar")
 system.book_seat("The Dark Knight")
 system.book_seat("The Dark Knight")  # trying when full
 
 # 3. Show available movies
 system.available_movies()
+
 
