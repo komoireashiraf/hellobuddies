@@ -1,4 +1,4 @@
-# Define Movie class
+# Define class Movie
 class Movie:
     def __init__(self, title, seats):
         self.title = title
@@ -45,7 +45,7 @@ class BookingSystem:
 
 # --- Steps in action ---
 # 1. Add 3 movies
-m1 = Movie("Inception", 3)
+m1 = Movie("Mr. Bean's Holiday", 3)
 m2 = Movie("Interstellar", 2)
 m3 = Movie("The Dark Knight", 1)
 
@@ -63,3 +63,4 @@ system.book_seat("The Dark Knight")  # trying when full
 
 # 3. Show available movies
 system.available_movies()
+
